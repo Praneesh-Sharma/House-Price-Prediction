@@ -12,7 +12,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>House Price Predictio
 st.write("---")
 
 # Loading the dataset
-df = pd.read_csv('dataset.csv', index_col=[0])
+df = pd.read_csv('cleaned_datasets/dataset.csv', index_col=[0])
 X = df.drop(['SalePrice'], axis=1)
 Y = df['SalePrice']
 st.write("### Dataset")
