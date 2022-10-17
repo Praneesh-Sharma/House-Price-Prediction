@@ -7,13 +7,14 @@ Creative feature engineering
 Advanced regression techniques like random forest and gradient boosting
 
 # File descriptions
- train.csv - the training set  
- test.csv - the test set  
- data_description.txt - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here  
- sample_submission.csv - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms  
+* _train.csv_ - the training set  
+* _test.csv_ - the test set  
+* _data_description.txt_ - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here  
+* _sample_submission.csv_ - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms  
 
 # Data fields
 Here's a brief version of what you'll find in the data description file.  
+```
 SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.  
 MSSubClass: The building class  
 MSZoning: The general zoning classification  
@@ -94,6 +95,7 @@ MoSold: Month Sold
 YrSold: Year Sold  
 SaleType: Type of sale  
 SaleCondition: Condition of sale  
+```
 
 # Acknowledgments
 The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
