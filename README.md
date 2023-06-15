@@ -99,3 +99,7 @@ SaleCondition: Condition of sale
 
 # Acknowledgments
 The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
+
+# Deployment
+The model has been deployed on streamlit. It canbe accessed through this [link](https://praneesh-sharma-ho-deployment-fileshouse-pred-deployment-awr28n.streamlit.app/)
+
