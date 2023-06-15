@@ -93,12 +93,12 @@ st.code(float(prediction))
 st.write('---')
 
 #SHAP
-import shap
-explainer = shap.TreeExplainer(model)
-shap_values = explainer.shap_values(X)
-st.markdown("<h2 style='text-align: left; color: black;'>Feature Importance</h2>", unsafe_allow_html=True)
-st.write("###### Feature Importance based on SHAP values")
-shap.summary_plot(shap_values,X)
-st.pyplot(bbox_inches='tight')
-shap.summary_plot(shap_values,X,plot_type='bar')
-st.pyplot(bbox_inches='tight')
+# import shap
+# explainer = shap.TreeExplainer(model)
+# shap_values = explainer.shap_values(X)
+# st.markdown("<h2 style='text-align: left; color: black;'>Feature Importance</h2>", unsafe_allow_html=True)
+# st.write("###### Feature Importance based on SHAP values")
+# shap.summary_plot(shap_values,X)
+# st.pyplot(bbox_inches='tight')
+# shap.summary_plot(shap_values,X,plot_type='bar')
+# st.pyplot(bbox_inches='tight')
