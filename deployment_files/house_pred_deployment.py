@@ -84,8 +84,8 @@ st.write(df)
 st.write('---')
 
 #model
-model=xgboost.XGBRegressor()
-model.fit(X, Y)
+filename = 'finalized_model.pkl'
+model = pickle.load(open(filename, 'rb'))
 prediction = model.predict(df)
 
 st.write("###### Predicted House Price Value based on the given parameters: ")
