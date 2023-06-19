@@ -84,7 +84,7 @@ st.write(df)
 st.write('---')
 
 #model
-filename = 'finalized_model.pkl'
+filename = 'ml_model/finalized_model.pkl'
 model = pickle.load(open(filename, 'rb'))
 prediction = model.predict(df)
 
