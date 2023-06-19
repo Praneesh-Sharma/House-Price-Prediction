@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 import seaborn as sns
-import pickle
+import xgboost
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -84,8 +84,8 @@ st.write(df)
 st.write('---')
 
 #model
-filename = 'finalized_model.pkl'
-model = pickle.load(open(filename, 'rb'))
+model = XGBRegressor()
+model.fit(X,Y)
 prediction = model.predict(df)
 
 st.write("###### Predicted House Price Value based on the given parameters: ")
