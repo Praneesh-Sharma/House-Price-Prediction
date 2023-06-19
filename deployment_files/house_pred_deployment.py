@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 import seaborn as sns
-import xgboost
+import pickle
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
