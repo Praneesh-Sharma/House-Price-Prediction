@@ -84,7 +84,7 @@ st.write(df)
 st.write('---')
 
 #model
-model = XGBRegressor()
+model = xgboost.XGBRegressor()
 model.fit(X,Y)
 prediction = model.predict(df)
 
