@@ -84,8 +84,8 @@ st.write(df)
 st.write('---')
 
 #model
-model = xgboost.XGBRegressor()
-model.fit(X,Y)
+model=xgboost.XGBRegressor()
+model.fit(X, Y)
 prediction = model.predict(df)
 
 st.write("###### Predicted House Price Value based on the given parameters: ")
